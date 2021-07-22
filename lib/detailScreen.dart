@@ -29,7 +29,7 @@ class _DetailScreenState extends State<DetailScreen> {
     List<FlSpot> spots1 = List.generate(data.length ~/ 2,
         (index) => FlSpot(data[index * 2], data[index * 2 + 1])).toList();
     List<FlSpot> spots2 = List.generate(data2.length ~/ 2,
-        (index) => FlSpot(data[index * 2], data[index * 2 + 1])).toList();
+        (index) => FlSpot(data2[index * 2], data2[index * 2 + 1])).toList();
 
     return {'spots1': spots1, 'spots2': spots2};
   }
